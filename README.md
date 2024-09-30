@@ -49,9 +49,10 @@ Understanding not only the **emotional tone** but also **how entities (products,
 ## 🛠️ Installation
 '''
 ### 1. Clone the Repository
-```bash git clone https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-.git
+```bash
+git clone https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-.git
 cd VIvaVocal-Azure-Customer-Review-Analysis-
-
+```
 ---
 
 ### 2. Install Dependencies
@@ -65,41 +66,55 @@ Create an Azure Speech Services resource for speech-to-text conversion.
 Set up Azure Language Services for sentiment analysis, language detection, key phrase extraction, and entity recognition.
 Update your configuration files with the Azure API keys.
 🚀 Usage
-Run the Application:
+
+### Run the Application:
 
 ```bash
-Copy code
+
 streamlit run app.py
-Provide Reviews in One of Three Ways:
+```
 
-🗣️ Speak into the microphone.
-📁 Upload a file (audio or text).
-⌨️ Type your review.
-Analyze the Output:
+### Provide Reviews in One of Three Ways:
 
-View the sentiment (positive, neutral, negative).
-Key phrases and entities are displayed for further insights.
-Get language detection results and entity links for additional context.
-💻 Technology Stack
-Azure Speech Services: Converts speech to text.
-Azure Language Services: Provides sentiment analysis, key phrase extraction, and entity detection.
-Python: Main programming language.
-Streamlit: Front-end for the web interface.
-🤝 Contributing
+- 🗣️ Speak into the microphone.
+- 📁 Upload a file (audio or text).
+- ⌨️ Type your review.
+
+---
+
+
+### Analyze the Output:
+
+- View the sentiment (positive, neutral, negative).
+- Key phrases and entities are displayed for further insights.
+- Get language detection results and entity links for additional context.
+
+---
+### 💻 Technology Stack
+
+- **Azure Speech Services**: Converts speech to text.
+- **Azure Language Services**: Provides sentiment analysis, key phrase extraction, and entity detection.
+- **Python**: Main programming language.
+- **Streamlit**: Front-end for the web interface.
+
+---
+
+### 🤝 Contributing
+
 We welcome contributions! To get started:
 
-Fork the repository.
-Create a new branch for your feature.
-Submit a pull request.
-Feel free to open issues for suggestions or bug reports.
+### Fork the repository.
+- Create a new branch for your feature.
+- Submit a pull request.
+- Feel free to open issues for suggestions or bug reports.
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-🎓 Acknowledgements
+### 🎓 Acknowledgements
 Special thanks to ICT Academy and Infosys for providing the training that made this project possible.
 
-🌐 Connect
+### 🌐 Connect
 If you have any questions or feedback, feel free to contact us or open an issue in the GitHub repository!
 
 
