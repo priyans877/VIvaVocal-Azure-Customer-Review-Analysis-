@@ -1,88 +1,105 @@
-# ViveVocal: Azure Customer Review Analysis
+# 🌟 ViveVocal: Azure Customer Review Analysis 🌟
 
-## Overview
-**ViveVocal** is a powerful AI-driven solution that transforms customer feedback into actionable insights by leveraging **Azure Speech Services** for speech-to-text conversion and **Azure Language Services** for sentiment analysis, language detection, key phrase extraction, and entity recognition.
+[![GitHub issues](https://img.shields.io/github/issues/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-)](https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-/issues)
+[![GitHub forks](https://img.shields.io/github/forks/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-)](https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-/network)
+[![GitHub stars](https://img.shields.io/github/stars/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-)](https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-/stargazers)
+[![GitHub license](https://img.shields.io/github/license/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-)](https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-/blob/main/LICENSE)
 
-This project allows users to submit reviews through three different methods: speaking directly, uploading a file, or typing text. It then processes the input to extract important details such as sentiment, key phrases, and entities, helping businesses gain deeper insights into customer feedback and trends.
+## 🚀 Project Overview
+**ViveVocal** is an AI-driven platform that transforms customer feedback into valuable insights using **Azure Speech Services** for speech-to-text conversion and **Azure Language Services** for sentiment analysis, language detection, key phrase extraction, and entity recognition. This project aims to help businesses better understand and act on customer feedback by providing real-time insights from reviews submitted through voice, file uploads, or text.
 
-## Features
-- **Multimodal Input**:
-  - 🗣️ **Speech Input**: Convert spoken feedback into text using Azure Speech Services.
-  - 📁 **File Upload**: Process uploaded audio or text files for analysis.
-  - ⌨️ **Text Input**: Directly analyze typed text reviews.
+---
+
+### 🌟 Key Features
+- 🗣️ **Speech Input**: Converts spoken feedback into text using Azure Speech Services.
+- 📁 **File Upload**: Analyzes audio or text file uploads.
+- ⌨️ **Text Input**: Direct text review analysis.
   
-- **Sentiment Analysis**: Understand the emotional tone behind the feedback.
+- 🎭 **Sentiment Analysis**: Detects the emotional tone (positive, negative, neutral).
   
-- **Language Detection**: Automatically detect the language of the feedback.
+- 🌍 **Language Detection**: Automatically detects the language of the review.
   
-- **Key Phrase Extraction**: Extract important topics and phrases that summarize the feedback.
+- 🔑 **Key Phrase Extraction**: Extracts important topics and key phrases.
   
-- **Entity Recognition**: Identify key entities such as products, services, locations, or brands and link them to relevant sources for further insights.
+- 🏷️ **Entity Recognition**: Identifies and links key entities like products, services, locations, and competitors to relevant sources.
 
-## Why It's a Game Changer
-By identifying key phrases and entities, businesses can:
-- Address specific customer concerns.
-- Spot emerging trends.
-- Respond proactively to real-time feedback.
+---
 
-Additionally, seeing how entities such as products or competitors are discussed in customer reviews offers businesses a unique competitive advantage in understanding customer sentiment and making informed decisions.
+### 🔑 Why It's a Game Changer
+By analyzing **key phrases** and **entities**, businesses can:
+- 🎯 **Address specific customer concerns**.
+- 📊 **Spot emerging trends**.
+- 🚀 **Respond proactively** based on real-time feedback.
 
-## How It Works
-1. **Speech-to-Text**: If the user provides an audio review, Azure Speech Services converts it to text.
-2. **Text Processing**: The text (from speech, file, or typed) is analyzed using Azure Language Services.
-3. **Sentiment Analysis**: Detects whether the feedback is positive, negative, or neutral.
-4. **Language Detection**: Identifies the language of the feedback.
-5. **Key Phrase Extraction**: Highlights the most important phrases or topics from the review.
-6. **Entity Detection**: Recognizes specific entities (e.g., products, brands) and links them to additional sources or context.
+Understanding not only the **emotional tone** but also **how entities (products, brands, services) impact customer opinions** provides businesses with a unique edge in improving customer satisfaction and making data-driven decisions.
 
-## Installation
+---
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-.git
-    cd VIvaVocal-Azure-Customer-Review-Analysis-
-    ```
+## ⚙️ How It Works
+1. **Speech-to-Text**: Converts audio feedback into text using **Azure Speech Services**.
+2. **Text Processing**: Processes the text using **Azure Language Services** for:
+   - Sentiment analysis.
+   - Language detection.
+   - Key phrase extraction.
+   - Entity detection.
+3. **Output**: Provides the sentiment, key phrases, detected language, and links to relevant entities.
 
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+---
 
-3. Set up Azure resources:
-    - Create an **Azure Speech Services** resource for speech-to-text conversion.
-    - Set up **Azure Language Services** for sentiment analysis, key phrase extraction, and entity recognition.
+## 🛠️ Installation
+'''
+### 1. Clone the Repository
+```bash git clone https://github.com/priyans877/VIvaVocal-Azure-Customer-Review-Analysis-.git
+cd VIvaVocal-Azure-Customer-Review-Analysis-
 
-4. Update your configuration settings in the project to include the **Azure API keys**.
+---
 
-## Usage
+### 2. Install Dependencies
+--bash
+pip install -r requirements.txt
 
-1. Start the application by running the following command:
-    ```bash
-    streamlit run app.py
-    ```
+---
 
-2. Users can provide reviews in the following ways:
-   - **Speak** directly into the microphone.
-   - **Upload** a file (audio or text).
-   - **Type** text manually.
+### 3. Set Up Azure Services
+Create an Azure Speech Services resource for speech-to-text conversion.
+Set up Azure Language Services for sentiment analysis, language detection, key phrase extraction, and entity recognition.
+Update your configuration files with the Azure API keys.
+🚀 Usage
+Run the Application:
 
-3. The output will display:
-   - Sentiment analysis (positive, neutral, negative).
-   - Detected language.
-   - Key phrases from the review.
-   - Entities identified and links to those entities for more information.
+```bash
+Copy code
+streamlit run app.py
+Provide Reviews in One of Three Ways:
 
-## Technology Stack
-- **Azure Speech Services**: For converting speech to text.
-- **Azure Language Services**: For sentiment analysis, key phrase extraction, and entity detection.
-- **Python**: Core programming language for the project.
-- **Streamlit**: Front-end framework for creating the user interface.
+🗣️ Speak into the microphone.
+📁 Upload a file (audio or text).
+⌨️ Type your review.
+Analyze the Output:
 
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue for any improvements or suggestions.
+View the sentiment (positive, neutral, negative).
+Key phrases and entities are displayed for further insights.
+Get language detection results and entity links for additional context.
+💻 Technology Stack
+Azure Speech Services: Converts speech to text.
+Azure Language Services: Provides sentiment analysis, key phrase extraction, and entity detection.
+Python: Main programming language.
+Streamlit: Front-end for the web interface.
+🤝 Contributing
+We welcome contributions! To get started:
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Fork the repository.
+Create a new branch for your feature.
+Submit a pull request.
+Feel free to open issues for suggestions or bug reports.
 
-## Acknowledgements
-This project was developed as part of training provided by **ICT Academy** and **Infosys**.
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+🎓 Acknowledgements
+Special thanks to ICT Academy and Infosys for providing the training that made this project possible.
+
+🌐 Connect
+If you have any questions or feedback, feel free to contact us or open an issue in the GitHub repository!
+
+
